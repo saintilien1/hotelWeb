@@ -1,11 +1,42 @@
- <?php
-include'header.php';
+<!DOCTYPE html>
+<html lang="zxx"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Hotel Template">
+    <meta name="keywords" content="Hotel, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CACIQUAT Convention center</title> 
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Taviraj:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet"> 
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css"> 
+    <link rel="stylesheet" href="../css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/flaticon.css" type="text/css">
+    <link rel="stylesheet" href="../css/linearicons.css" type="text/css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="../css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="../css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <style>
+         table, th, td { 
+             margin-left: 270px;
+         } 
+      </style>
+</head>  
+<body>
+<?php
+ include_once'header.php';
 ?>
     
     <!-- Header End -->
-
+    <!-- Hero Slider Begin -->
+   
     <!-- Hero Section Begin -->
-    <section class="hero-section set-bg" data-setbg="img/contact-bg.jpg">
+    <section class="hero-section set-bg" data-setbg="../img/contact-bg.jpg">
         <div class="hero-text">
             <div class="container">
                 <div class="row">
@@ -29,10 +60,10 @@ include'header.php';
                         <div class="contact-information">
                             <h2>Contact Information</h2>
                             <ul>
-                                <li><img src="img/placeholder-copy.png" alt=""> <span>167, Rue Notre-Dame, Arrondissement<br> de Port-de-Paix</span></li>
-                                <li><img src="img/phone-copy.png" alt=""> <span>+1(509)37228101</span></li>
-                                <li><img src="img/envelop.png" alt=""> <span>caciquatconventioncenter@yahoo.com</span></li>
-                                <li><img src="img/clock-copy.png" alt=""> <span>Everyday: 06:00 -22:00</span></li>
+                                <li><img src="../img/placeholder-copy.png" alt=""> <span>167, Rue Notre-Dame, Arrondissement<br> de Port-de-Paix</span></li>
+                                <li><img src="../img/phone-copy.png" alt=""> <span>+1(509)37228101</span></li>
+                                <li><img src="../img/envelop.png" alt=""> <span>caciquatconventioncenter@yahoo.com</span></li>
+                                <li><img src="../img/clock-copy.png" alt=""> <span>Everyday: 06:00 -22:00</span></li>
                             </ul>
                         </div>
                         <div class="social-links">
@@ -100,18 +131,10 @@ include'header.php';
     <!-- Footer Section Begin -->
 <?php
 include'footer.php';
+//    <!-- Js Plugins -->
+include_once'scripte.php';
 ?>
-    <!-- Footer Section End -->
-
-    <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
+    <!-- Footer Section End --> 
 </body>
 
 </html>

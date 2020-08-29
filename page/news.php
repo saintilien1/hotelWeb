@@ -1,11 +1,42 @@
- <?php
-include'header.php';
-require_once'admin/Connection.php';
+<!DOCTYPE html>
+<html lang="zxx"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Hotel Template">
+    <meta name="keywords" content="Hotel, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CACIQUAT Convention center</title> 
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Taviraj:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet"> 
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css"> 
+    <link rel="stylesheet" href="../css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/flaticon.css" type="text/css">
+    <link rel="stylesheet" href="../css/linearicons.css" type="text/css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="../css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="../css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <style>
+         table, th, td { 
+             margin-left: 270px;
+         } 
+      </style>
+</head>  
+<body> 
+<?php 
+require_once'../admin/Connection.php'; 
+ include_once'header.php'; 
 ?>
     <!-- Header End -->
-
+       <!-- Hero Slider Begin -->
+ 
     <!-- Hero Section Begin -->
-    <section class="hero-section set-bg" data-setbg="img/services-bg.jpg">
+    <section class="hero-section set-bg" data-setbg="../img/services-bg.jpg">
         <div class="hero-text">
             <div class="container">
                 <div class="row">
@@ -31,8 +62,7 @@ require_once'admin/Connection.php';
                         <div class="categories-item"> 
                             <h4>Categories</h4>
                             <div class="categories-list">
-                                <ul>
-                                    
+                                <ul> 
                                      <?php 
                                         
                                          //recherche dans la base de donnee pour controller le nombre de titre d'activite qui en sont 
@@ -221,10 +251,7 @@ require_once'admin/Connection.php';
                                     
                                     ?></p>
                                 
-                                
-                                
-                                
-                                
+                                 
                                 
                             </div>
                         </div>
@@ -235,8 +262,7 @@ require_once'admin/Connection.php';
                                    die("ERROR: Could not able to execute $sql. " . $e->getMessage());
                                     }
                                               
-                            ?> 
-                        
+                            ?>  
                         <div class="blog-pagination">
                             <a class="active" href="#">1</a>
                             <a href="#">2</a>
@@ -248,24 +274,19 @@ require_once'admin/Connection.php';
                 </div>
             </div>
         </div>
+    </div>
     </section>
     <!-- Blog Section End -->
 
     <!-- Footer Section Begin -->
         <?php
         include'footer.php';
+        include_once'scripte.php';
         ?>
     <!-- Footer Section End -->
 
     <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
+    
 </body>
 
 </html>

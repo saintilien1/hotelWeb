@@ -68,8 +68,10 @@ include"data/Connection.php";
                             </nav>
  
                             <div class="top-info">
-<!--                                <img src="img/placeholder.png" alt="">-->
-                                <span>Aliance informatique de Port-de-Paix</span>
+                               <a href="#">
+                                   <img src="../img/placeholder.png" alt=""> 
+                                   <span>Conferences And Events</span>
+                                </a>
                             </div>
  
                         </div>
@@ -183,10 +185,8 @@ include"data/Connection.php";
                        echo "SQLError $e";
                    }
                    ?> 
-         <?php 
-        
-      ?>  
-            
+         <?php  
+      ?>      
         </div>
     </section>
     <!-- Rooms Section End -->
@@ -194,18 +194,10 @@ include"data/Connection.php";
     <!-- Footer Section Begin -->
      <?php
       include'footer.php';
-     ?>
-    <!-- Footer Section End -->
-
     <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
+       require_once"scripte.php";
+     ?>
+    <!-- Footer Section End --> 
 </body>
 
 </html>

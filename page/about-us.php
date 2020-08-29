@@ -1,6 +1,77 @@
- <?php
-include'header.php';
-?>
+<!DOCTYPE html>
+<html lang="zxx"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Hotel Template">
+    <meta name="keywords" content="Hotel, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CACIQUAT Convention center</title> 
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Taviraj:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet"> 
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" type="text/css"> 
+    <link rel="stylesheet" href="../css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/flaticon.css" type="text/css">
+    <link rel="stylesheet" href="../css/linearicons.css" type="text/css">
+    <link rel="stylesheet" href="../css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="../css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="../css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="../css/style.css" type="text/css">
+    <style>
+         table, th, td { 
+             margin-left: 270px;
+         } 
+      </style>
+</head>  
+<body>
+   <!-- Header Section Begin -->
+    <header class="header-section">
+        <div class="container-fluid">
+            <div class="inner-header">
+                <div class="logo">
+                    <a href="../index.php" style="color:#fff;">
+                    <h4 style="color:#fff;">CACIQUAT</h4>
+                    </a>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <nav class="main-menu mobile-menu">
+                                <ul>
+                                    <li><a href="../index.php">Home</a></li>
+                                    <li><a href="about-us.php">About</a></li>
+                                    <li><a href="rooms.php">Rooms</a></li>
+                                    <li><a href="#">Facilities</a>
+                                        <ul class="drop-menu">
+                                            <li><a href="roomsJunior.php">Junior Suit</a></li>
+                                            <li><a href="roomsJunior.php?value=2">Double Room</a></li>
+                                            <li><a href="roomsJunior.php?value=3">Senior Suit</a></li>
+                                            <li><a href="roomsJunior.php?value=4">Single Room</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="news.php">News</a></li>
+                                    <li><a href="contact.php">Contact</a></li> 
+                                </ul>
+                            </nav> 
+                            <div class="top-info">
+                                 <a href="#">
+                                   <img src="../img/placeholder.png" alt=""> 
+                                   <span>Conferences And Events</span>
+                                </a>
+                            </div>
+ 
+                        </div>
+                    </div>
+                </div>
+                <div id="mobile-menu-wrap"></div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
 <style>
     .galt{
         margin-top: -165px;
@@ -9,7 +80,7 @@ include'header.php';
     <!-- Header End -->
 
     <!-- Hero Section Begin -->
-    <section class="hero-section set-bg" data-setbg="img/about-us-bg.jpg">
+    <section class="hero-section set-bg" data-setbg="../img/about-us-bg.jpg">
         <div class="hero-text">
             <div class="container">
                 <div class="row">
@@ -18,7 +89,7 @@ include'header.php';
                     </div>
                 </div>
                 <div class="page-nav">
-                    <a href="index.php" class="left-nav"><i class="lnr lnr-arrow-left"></i> Home</a>
+                    <a href="../index.php" class="left-nav"><i class="lnr lnr-arrow-left"></i> Home</a>
                     <a href="services.php" class="right-nav">Services <i class="lnr lnr-arrow-right"></i></a>
                 </div>
             </div>
@@ -58,7 +129,7 @@ include'header.php';
     <!-- About Room Section End -->
 
     <!-- Video Tour Section Begin -->
-    <section class="video-tour set-bg" data-setbg="img/video-bg.jpg">
+    <section class="video-tour set-bg" data-setbg="../img/video-bg.jpg">
         <div class="container">
             <div class="video-text">
                 <div class="row">
@@ -89,22 +160,22 @@ include'header.php';
                     <div class="row">
                         <div class="col-lg-6 col-md-3 col-sm-6">
                             <div class="gallery-img">
-                                <img src="img/img/footer/img10.jpg" alt="">
+                                <img src="../img/img/footer/img10.jpg" alt="">
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-3 col-sm-6">
                             <div class="gallery-img">
-                                <img src="img/img/footer/img11.jpg" alt="">
+                                <img src="../img/img/footer/img11.jpg" alt="">
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-3 col-sm-6">
                             <div class="gallery-img">
-                                <img src="img/img/footer/img13.jpg" alt="">
+                                <img src="../img/img/footer/img13.jpg" alt="">
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-3 col-sm-6">
                             <div class="gallery-img">
-                                <img src="img/img/footer/img3.jpg" height="140px" alt="">
+                                <img src="../img/img/footer/img3.jpg" height="140px" alt="">
                             </div>
                         </div>
                     </div>
@@ -128,7 +199,7 @@ include'header.php';
                 <div class="col-lg-4 col-md-6">
                     <div class="single-staff-item">
                         <div class="staff-img">
-                            <img src="img/img/img%204.jpg" alt="">
+                            <img src="../img/img/img%204.jpg" alt="">
                         </div>
                         <div class="staff-text">
                             <h5>Sarah Doe</h5>
@@ -140,7 +211,7 @@ include'header.php';
                 <div class="col-lg-4 col-md-6">
                     <div class="single-staff-item">
                         <div class="staff-img">
-                            <img src="img/img/img%204.jpg" alt="">
+                            <img src="../img/img/img%204.jpg" alt="">
                         </div>
                         <div class="staff-text">
                             <h5>Jessica Doe</h5>
@@ -152,7 +223,7 @@ include'header.php';
                 <div class="col-lg-4 col-md-6">
                     <div class="single-staff-item">
                         <div class="staff-img">
-                            <img src="img/img/img%204.jpg" alt="">
+                            <img src="../img/img/img%204.jpg" alt="">
                         </div>
                         <div class="staff-text">
                             <h5>Jessica Doe</h5>
@@ -169,18 +240,11 @@ include'header.php';
     <!-- Footer Section Begin -->
         <?php
         include'footer.php';
+        require_once'scripte.php';
         ?>
     <!-- Footer Section End -->
 
-    <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/jquery-ui.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
+    
 </body>
 
 </html>

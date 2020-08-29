@@ -1,7 +1,38 @@
-<?php
-include 'header.php';
-if(session_status()===PHP_SESSION_NONE) session_start();
-?> 
+<!DOCTYPE html>
+<html lang="zxx"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Hotel Template">
+    <meta name="keywords" content="Hotel, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CACIQUAT Convention center</title> 
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Taviraj:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800&display=swap" rel="stylesheet"> 
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"> 
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/flaticon.css" type="text/css">
+    <link rel="stylesheet" href="css/linearicons.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <style>
+         table, th, td { 
+             margin-left: 270px;
+         } 
+      </style>
+</head>  
+<body> 
+<?php 
+   include_once("data/Connection.php");
+    if(session_status()===PHP_SESSION_NONE) session_start();  
+    include_once'page/headerIndex.php';
+?>    
     <!-- Hero Slider Begin -->
     <div class="hero-slider">
         <div class="slider-item">
@@ -64,7 +95,7 @@ if(session_status()===PHP_SESSION_NONE) session_start();
                                     <h2>Junior Suite</h2>
                                     <div class="room-price">
                                         <span>From</span>
-                                        <h2>45.00 USD</h2>
+                                        <h2>25.00 USD</h2>
                                     </div>
                                 </div><br>
                                 <div class="room-features">
@@ -164,48 +195,19 @@ if(session_status()===PHP_SESSION_NONE) session_start();
                     </div>  
                 </div> 
                 <div class="about-para"> 
-                    <div class="row">
-                        <br>
-                        <br>
-                        <br>
-                              <h3 style="margin-left:250px;">Accommodation basic information</h3>               
-                          <table>
-                             <tr> 
-                                <th colspan="1"  >  </th>  <br>
-                                <th colspan="1"  >  </th>  <br> 
-                             <tr>
-                                <td>Laundry</td>
-                                <td>Meeting/banquet facilities</td>
-                             </tr>
-                             <tr>
-                                <td>Nightclub/DJ</td>
-                                <td>On-site parking</td>
-                             </tr> <tr>
-                                <td>Parking</td>
-                                <td>Parking garage</td>
-                             </tr> <tr>
-                                <td>Private check-in/check-out</td>
-                                <td>Private parking</td>
-                             </tr> <tr>
-                                <td>Restaurant</td>
-                                <td>Secured parking</td>
-                             </tr> <tr>
-                                <td>Shared lounge/TV area</td>
-                                <td>Shoeshine</td>
-                             </tr> <tr>
-                                <td>Shops (on site)</td>
-                                <td>Snack bar</td>
-                             </tr> <tr>
-                                <td>Soundproof rooms</td>
-                                <td>Private check-in/check-out</td>
-                             </tr> <tr>
-                                <td>Special diet menus (on request)</td>
-                                <td>Private parking</td>
-                             </tr> <tr>
-                                <td>Sun terrace</td>
-                                <td>WiFi</td>
-                             </tr>  
-                          </table>
+                    <div class="row"> 
+                    <div class="col-lg-6">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus libero mauris,
+                                bibendum eget sapien ac, ultrices rhoncus ipsum. Donec nec sapien in urna fermentum
+                                ornare. Morbi vel ultrices leo. Sed eu turpis eu arcu vehicula fringilla ut vitae
+                                orci. Suspendisse maximus malesuada</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi at vulputate est.
+                                Donec tempor felis at nibh eleifend malesuada. Nullam suscipit lobortis aliquam.
+                                Phasellus lobortis ante lorem, vitae scelerisque lacus tempus sed. Phasellus rutrum
+                                magna </p>
+                        </div> 
                     </div>
                 </div>
             </div>
@@ -216,42 +218,74 @@ if(session_status()===PHP_SESSION_NONE) session_start();
     <div class="facilities-section spad">
         <div class="container">
             <div class="facilities-content">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="section-title">
-                            <h1>Aliance Informatique</h1>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 p-0">
-                        <div class="facilities-img set-bg" data-setbg="">
-                        <img src="img/img/alliance.jpg" height="570px"  />
-                        </div>
-                    </div>
-                    <div class="col-lg-6 p-0 ">
-                        <div class="facilities-text-warp">
-                            <div class="facilities-text">
-                                <h2>École d’informatique à Port Paix, Nord-Ouest, Haiti</h2>
-                                <p>Pami nouvo enskri nou te anrejistre nan otèlri ak touris, 5 nan yo deja kòmanse patisipe nan yon seri fòmasyon Ministè enteryè ak kolektivite tèritoryal nan tèt kole ak Inivèsite Laval ap òganize pou kolektivite teritoryal yo ak patikilye!</p>
-
-                                <p>📸 @Parallèle Media Groupe</p>
-                                <a href="#" class="primary-btn fac-btn">Visit Center <i class="lnr lnr-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 p-0 order-lg-1 order-2">
-                        <div class="facilities-text-warp">
-                            <div class="facilities-text">
-                                <h2>Formation sur la reussite gratuite</h2>
-                                <p>Alliance informatique centre professionnel et formation des cadres offre des seminaires gratuits sur la reussite a ses etudiants.<br> Faites-vous inscrire ou vos proches au plus vite.</p>
-                                <a href="#" class="primary-btn fac-btn">Visit Center <i class="lnr lnr-arrow-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 p-0 order-lg-2 order-1">
-                         <div class="facilities-img set-bg" data-setbg="">
-                           <img src="img/img/formationG.jpg" height="570px"  />
-                        </div> 
-                    </div>
+                <div class="row"><?php                                      
+                             try{   
+                                    $stmt = $pdo->query("SELECT * FROM blog ORDER BY id DESC LIMIT 1 ");  
+                                      while ($row      = $stmt->fetch()) {  
+                                  ?>
+                                      <div class="col-lg-6 p-0">
+                                            <div class="facilities-img set-bg" data-setbg="">
+                                                 <img src="img/img/alliance.jpg" height="570px"  />
+                                               <!-- <?php echo '<img width="1000px"   src="data:image/jpg;base64,'.base64_encode(stripslashes($row["file"])).'"/>';?>   -->
+                                           </div>
+                                      </div>
+                                      <div class="col-lg-6 p-0 ">
+                                            <div class="facilities-text-warp">
+                                                     <div class="facilities-text">
+                                                        <h4 style="margin-top=400px"><?php  echo $row["title"]  ?></h4> 
+                                                        <?php  
+                                                        if(strlen($row["body"])>100 ){
+                                                            $row["body"]= substr_replace($row["body"], "..."  , 300);
+                                                        }else{
+                                                            $row["body"]= $row["title"];
+                                                        }
+                                                                echo $row["body"]; 
+                                                        ?>  
+                                                            <a href="#" class="primary-btn fac-btn">Visit Center <i class="lnr lnr-arrow-right"></i></a>
+                                                    </div>
+                                              </div>
+                                       </div> 
+                                   <?php
+                                   }
+                                 }catch(PDOException $e){
+                                       die("ERROR: Could not able to execute $sql. " . $e->getMessage());
+                                    }
+                                  // Close connection         
+                                 ?>  
+                                 <?php                        
+                                    try{                 
+                                       $stmt = $pdo->query("SELECT * FROM blog ORDER BY id DESC LIMIT 1 ");  
+                                           while ($row      = $stmt->fetch()) {  
+                                     ?>   
+                                       <div class="col-lg-6 p-0 order-lg-1 order-2">
+                                            <div class="facilities-text-warp">
+                                                  <div class="facilities-text">
+                                                  <h4><?php  echo $row["title"]   ?></h4>
+                                      <?php  
+                                           if(strlen($row["body"])>100 ){
+                                             $row["body"]= substr_replace($row["body"], "..."  , 250);
+                                          }else{
+                                               $row["body"]= $row["title"];
+                                                }
+                                           echo $row["body"]; 
+                                      ?>  
+                                              <a href="#" class="primary-btn fac-btn">Visit Center <i class="lnr lnr-arrow-right"></i></a>
+                                            </div>
+                                         </div>
+                                      </div>
+                                      <div class="col-lg-6 p-0 order-lg-2 order-1">
+                                            <div class="facilities-img set-bg" data-setbg="">
+                                                <img src="img/img/formationG.jpg" height="570px"  />  
+                                                <!-- <?php echo '<img width="1000px"   src="data:image/jpg;base64,'.base64_encode(stripslashes($row["file"])).'"/>';?> -->
+                                            </div> 
+                                       </div>          
+                                        <?php
+                                       }
+                                       }catch(PDOException $e){
+                                           die("ERROR: Could not able to execute $sql. " . $e->getMessage());
+                                     }
+                                                        // Close connection         
+                                    ?> 
                 </div>
             </div>
         </div>
@@ -345,12 +379,12 @@ if(session_status()===PHP_SESSION_NONE) session_start();
                                 </a>
                             </li>
                             <li>
-                                <a data-toggle="tab" href="#testimonial-3" role="tab">
+                              <a data-toggle="tab" href="#testimonial-3" role="tab">
                                     <div class="author-pic">
-                                        <img src="img/testimonial/author-3.jpg" alt="">
+                                      <img src="img/testimonial/author-3.jpg" alt="">
                                     </div>
                                     <div class="author-text">
-                                        <h5>John Doe <span>Berlin</span></h5>
+                                      <h5>John Doe <span>Berlin</span></h5>
                                     </div>
                                 </a>
                             </li>
@@ -386,7 +420,7 @@ if(session_status()===PHP_SESSION_NONE) session_start();
     </div>
     <!-- Footer Room Pic Section End -->
     <?php 
-      include'footer.php';
+      include'page/footer.php';
      ?>
     <!-- /Footer Room pic End --> 
     <!-- Js Plugins -->
